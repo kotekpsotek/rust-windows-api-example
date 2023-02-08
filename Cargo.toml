@@ -7,4 +7,4 @@ edition = "2021"
 
 [target.'cfg(target_os = "windows")'.dependencies.windows]
 version = "0.44.0"
-features = ["Win32_System_Power", "Win32_Foundation", "Win32_System_SystemInformation"]
+features = ["Win32_System_Power", "Win32_Foundation", "Win32_System_SystemInformation", "UI_Notifications", "Data_Xml_Dom"]
